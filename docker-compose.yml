@@ -9,4 +9,4 @@ services:
       - PORT=3000
       - NODE_ENV=development
     volumes:
-      - ./src:c/user/src/app/src
+      - ./src:/usr/src/app/src
